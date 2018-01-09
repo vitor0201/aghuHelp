@@ -8,6 +8,6 @@
 
 ###  Pré-requisitos
 
-1. Instale o PHP >= 5.6
+1. Instalar o PHP >= 5.6
 2. Instalar o PossgreSQL
 
