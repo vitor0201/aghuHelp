@@ -1,0 +1,106 @@
+CREATE DATABASE db_desenv;
+
+CREATE SCHEMA kanban;
+
+CREATE TABLE kanban.configuracao
+(
+  data timestamp without time zone NOT NULL,
+  valor numeric NOT NULL,
+  indicador_id integer NOT NULL,
+  id serial NOT NULL,
+  ativo boolean,
+  CONSTRAINT id PRIMARY KEY (id),
+  CONSTRAINT indicadores_configuracao_fk FOREIGN KEY (indicador_id)
+      REFERENCES kanban.indicadores (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+
+CREATE TABLE kanban.criterios
+(
+  id serial NOT NULL,
+  inicio bigint NOT NULL,
+  fim bigint NOT NULL,
+  cor character varying NOT NULL,
+  especialidade_id integer,
+  unidade_id integer,
+  movimento_id integer,
+  CONSTRAINT criterios_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE kanban.edit_pendencias
+(
+  id serial NOT NULL,
+  usuario character varying NOT NULL,
+  observacao character varying,
+  id_pendencia integer,
+  data date NOT NULL,
+  CONSTRAINT edit_pendencias_pkey PRIMARY KEY (id),
+  CONSTRAINT edit_pendencias_id_pendencia_fkey FOREIGN KEY (id_pendencia)
+      REFERENCES kanban.pendencias (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+
+CREATE TABLE kanban.ficha_indicadores
+(
+  id serial NOT NULL,
+  area character varying NOT NULL,
+  eixo character varying NOT NULL,
+  nivel character varying NOT NULL,
+  objetivo character varying NOT NULL,
+  finalidade character varying NOT NULL,
+  historico character varying NOT NULL,
+  formula character varying NOT NULL,
+  indicador_id integer NOT NULL,
+  homologacao character varying NOT NULL,
+  identificador character varying NOT NULL,
+  tipo character varying NOT NULL,
+  termos character varying NOT NULL,
+  fonte character varying NOT NULL,
+  responsavel character varying NOT NULL,
+  telefone character varying NOT NULL,
+  email character varying NOT NULL,
+  periocidade character varying NOT NULL,
+  parametro character varying NOT NULL,
+  unidade_medicao character varying NOT NULL,
+  coleta_dados character varying NOT NULL,
+  CONSTRAINT ficha_indicadores_pkey PRIMARY KEY (id),
+  CONSTRAINT ficha_indicadores_indicador_id_fkey FOREIGN KEY (indicador_id)
+      REFERENCES kanban.indicadores (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION,
+  CONSTRAINT ficha_indicadores_indicador_id_key UNIQUE (indicador_id)
+);
+
+CREATE TABLE kanban.indicadores
+(
+  id serial NOT NULL,
+  nome character varying NOT NULL,
+  cadastro_manual boolean,
+  valor character varying,
+  CONSTRAINT indicadores_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE kanban.pendencias
+(
+  id serial NOT NULL,
+  tipo_pendencia_id integer,
+  observacao character varying,
+  data_remocao timestamp without time zone,
+  observacao_remocao character varying,
+  data_cadastro timestamp without time zone,
+  internacao_id integer,
+  remocao_usuario_id character varying,
+  usuario_id character varying,
+  CONSTRAINT pendencias_pkey PRIMARY KEY (id),
+  CONSTRAINT tipo_pendencia_id FOREIGN KEY (tipo_pendencia_id)
+      REFERENCES kanban.tipo_pendencias (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+
+CREATE TABLE kanban.tipo_pendencias
+(
+  id serial NOT NULL,
+  descricao character varying NOT NULL,
+  ativo boolean,
+  CONSTRAINT tipo_pendencias_pkey PRIMARY KEY (id)
+);
+

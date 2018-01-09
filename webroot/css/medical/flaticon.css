@@ -1,0 +1,784 @@
+@font-face {
+	font-family: "Medical";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="medical-"]:before, [class*=" medical-"]:before,
+[class^="medical-"]:after, [class*=" medical-"]:after {   
+	font-family: Medical;
+	font-style: normal;
+	
+}
+.medical-2428:before {
+	content: "\e000";
+}
+.medical-ablution:before {
+	content: "\e001";
+}
+.medical-accessory36:before {
+	content: "\e002";
+}
+.medical-accident3:before {
+	content: "\e003";
+}
+.medical-aid1:before {
+	content: "\e004";
+}
+.medical-air3:before {
+	content: "\e005";
+}
+.medical-ambulance16:before {
+	content: "\e006";
+}
+.medical-ambulance9:before {
+	content: "\e007";
+}
+.medical-apple31:before {
+	content: "\e008";
+}
+.medical-baby137:before {
+	content: "\e009";
+}
+.medical-ball15:before {
+	content: "\e00a";
+}
+.medical-bed30:before {
+	content: "\e00b";
+}
+.medical-biohazard2:before {
+	content: "\e00c";
+}
+.medical-biology22:before {
+	content: "\e00d";
+}
+.medical-biology23:before {
+	content: "\e00e";
+}
+.medical-blood20:before {
+	content: "\e00f";
+}
+.medical-body16:before {
+	content: "\e010";
+}
+.medical-bodypart2:before {
+	content: "\e011";
+}
+.medical-bodypart24:before {
+	content: "\e012";
+}
+.medical-bodypart34:before {
+	content: "\e013";
+}
+.medical-bodypart40:before {
+	content: "\e014";
+}
+.medical-bodypart51:before {
+	content: "\e015";
+}
+.medical-bodypart52:before {
+	content: "\e016";
+}
+.medical-bodypart53:before {
+	content: "\e017";
+}
+.medical-bodypart56:before {
+	content: "\e018";
+}
+.medical-bodypart57:before {
+	content: "\e019";
+}
+.medical-bodypart58:before {
+	content: "\e01a";
+}
+.medical-bodypart59:before {
+	content: "\e01b";
+}
+.medical-bodypart60:before {
+	content: "\e01c";
+}
+.medical-bodypart61:before {
+	content: "\e01d";
+}
+.medical-bodypart66:before {
+	content: "\e01e";
+}
+.medical-bodypart7:before {
+	content: "\e01f";
+}
+.medical-bodyparts13:before {
+	content: "\e020";
+}
+.medical-bodyparts18:before {
+	content: "\e021";
+}
+.medical-bodyparts5:before {
+	content: "\e022";
+}
+.medical-bodyparts73:before {
+	content: "\e023";
+}
+.medical-bodyparts9:before {
+	content: "\e024";
+}
+.medical-bone9:before {
+	content: "\e025";
+}
+.medical-bones22:before {
+	content: "\e026";
+}
+.medical-bones23:before {
+	content: "\e027";
+}
+.medical-books112:before {
+	content: "\e028";
+}
+.medical-brain13:before {
+	content: "\e029";
+}
+.medical-breast1:before {
+	content: "\e02a";
+}
+.medical-breathing:before {
+	content: "\e02b";
+}
+.medical-broken29:before {
+	content: "\e02c";
+}
+.medical-brush18:before {
+	content: "\e02d";
+}
+.medical-caduceus1:before {
+	content: "\e02e";
+}
+.medical-cell5:before {
+	content: "\e02f";
+}
+.medical-cells:before {
+	content: "\e030";
+}
+.medical-cigar3:before {
+	content: "\e031";
+}
+.medical-clinic:before {
+	content: "\e032";
+}
+.medical-clinic2:before {
+	content: "\e033";
+}
+.medical-cut34:before {
+	content: "\e034";
+}
+.medical-dental6:before {
+	content: "\e035";
+}
+.medical-dentist13:before {
+	content: "\e036";
+}
+.medical-dentist26:before {
+	content: "\e037";
+}
+.medical-dentist30:before {
+	content: "\e038";
+}
+.medical-dentist5:before {
+	content: "\e039";
+}
+.medical-dermathology1:before {
+	content: "\e03a";
+}
+.medical-descending6:before {
+	content: "\e03b";
+}
+.medical-diapers:before {
+	content: "\e03c";
+}
+.medical-diet:before {
+	content: "\e03d";
+}
+.medical-dropper7:before {
+	content: "\e03e";
+}
+.medical-droppers1:before {
+	content: "\e03f";
+}
+.medical-drops1:before {
+	content: "\e040";
+}
+.medical-drug2:before {
+	content: "\e041";
+}
+.medical-ear:before {
+	content: "\e042";
+}
+.medical-ebola:before {
+	content: "\e043";
+}
+.medical-electricity16:before {
+	content: "\e044";
+}
+.medical-electrocardiogram3:before {
+	content: "\e045";
+}
+.medical-emergency7:before {
+	content: "\e046";
+}
+.medical-excretory:before {
+	content: "\e047";
+}
+.medical-eyeglasses4:before {
+	content: "\e048";
+}
+.medical-eyeglasses6:before {
+	content: "\e049";
+}
+.medical-eyes26:before {
+	content: "\e04a";
+}
+.medical-family21:before {
+	content: "\e04b";
+}
+.medical-female127:before {
+	content: "\e04c";
+}
+.medical-female206:before {
+	content: "\e04d";
+}
+.medical-flame:before {
+	content: "\e04e";
+}
+.medical-fruit6:before {
+	content: "\e04f";
+}
+.medical-genetic:before {
+	content: "\e050";
+}
+.medical-grandpa:before {
+	content: "\e051";
+}
+.medical-hairs:before {
+	content: "\e052";
+}
+.medical-hammers13:before {
+	content: "\e053";
+}
+.medical-handicap2:before {
+	content: "\e054";
+}
+.medical-health2:before {
+	content: "\e055";
+}
+.medical-health3:before {
+	content: "\e056";
+}
+.medical-health7:before {
+	content: "\e057";
+}
+.medical-healthcare:before {
+	content: "\e058";
+}
+.medical-healthcare104:before {
+	content: "\e059";
+}
+.medical-healthcare106:before {
+	content: "\e05a";
+}
+.medical-healthcare27:before {
+	content: "\e05b";
+}
+.medical-healthcare41:before {
+	content: "\e05c";
+}
+.medical-healthclinic5:before {
+	content: "\e05d";
+}
+.medical-healthclinic7:before {
+	content: "\e05e";
+}
+.medical-healthy1:before {
+	content: "\e05f";
+}
+.medical-heart189:before {
+	content: "\e060";
+}
+.medical-heart258:before {
+	content: "\e061";
+}
+.medical-heart48:before {
+	content: "\e062";
+}
+.medical-heart8:before {
+	content: "\e063";
+}
+.medical-hearts52:before {
+	content: "\e064";
+}
+.medical-hospital11:before {
+	content: "\e065";
+}
+.medical-hospital16:before {
+	content: "\e066";
+}
+.medical-hospital28:before {
+	content: "\e067";
+}
+.medical-hospital37:before {
+	content: "\e068";
+}
+.medical-hospital65:before {
+	content: "\e069";
+}
+.medical-hospital71:before {
+	content: "\e06a";
+}
+.medical-hospital73:before {
+	content: "\e06b";
+}
+.medical-hospital76:before {
+	content: "\e06c";
+}
+.medical-hospital80:before {
+	content: "\e06d";
+}
+.medical-hospitals1:before {
+	content: "\e06e";
+}
+.medical-human69:before {
+	content: "\e06f";
+}
+.medical-human79:before {
+	content: "\e070";
+}
+.medical-human88:before {
+	content: "\e071";
+}
+.medical-humanbody1:before {
+	content: "\e072";
+}
+.medical-hygiene20:before {
+	content: "\e073";
+}
+.medical-hygiene36:before {
+	content: "\e074";
+}
+.medical-illness:before {
+	content: "\e075";
+}
+.medical-injection:before {
+	content: "\e076";
+}
+.medical-injured2:before {
+	content: "\e077";
+}
+.medical-injured3:before {
+	content: "\e078";
+}
+.medical-laboratory21:before {
+	content: "\e079";
+}
+.medical-laboratory3:before {
+	content: "\e07a";
+}
+.medical-laboratory4:before {
+	content: "\e07b";
+}
+.medical-large14:before {
+	content: "\e07c";
+}
+.medical-leg:before {
+	content: "\e07d";
+}
+.medical-life-preserver:before {
+	content: "\e07e";
+}
+.medical-male209:before {
+	content: "\e07f";
+}
+.medical-man365:before {
+	content: "\e080";
+}
+.medical-man366:before {
+	content: "\e081";
+}
+.medical-man367:before {
+	content: "\e082";
+}
+.medical-mask9:before {
+	content: "\e083";
+}
+.medical-md:before {
+	content: "\e084";
+}
+.medical-measure40:before {
+	content: "\e085";
+}
+.medical-medical-equipment:before {
+	content: "\e086";
+}
+.medical-medical-equipment1:before {
+	content: "\e087";
+}
+.medical-medical106:before {
+	content: "\e088";
+}
+.medical-medical109:before {
+	content: "\e089";
+}
+.medical-medical116:before {
+	content: "\e08a";
+}
+.medical-medical117:before {
+	content: "\e08b";
+}
+.medical-medical126:before {
+	content: "\e08c";
+}
+.medical-medical13:before {
+	content: "\e08d";
+}
+.medical-medical133:before {
+	content: "\e08e";
+}
+.medical-medical136:before {
+	content: "\e08f";
+}
+.medical-medical14:before {
+	content: "\e090";
+}
+.medical-medical141:before {
+	content: "\e091";
+}
+.medical-medical162:before {
+	content: "\e092";
+}
+.medical-medical34:before {
+	content: "\e093";
+}
+.medical-medical4:before {
+	content: "\e094";
+}
+.medical-medical50:before {
+	content: "\e095";
+}
+.medical-medical51:before {
+	content: "\e096";
+}
+.medical-medical52:before {
+	content: "\e097";
+}
+.medical-medical53:before {
+	content: "\e098";
+}
+.medical-medical59:before {
+	content: "\e099";
+}
+.medical-medical62:before {
+	content: "\e09a";
+}
+.medical-medical63:before {
+	content: "\e09b";
+}
+.medical-medical66:before {
+	content: "\e09c";
+}
+.medical-medical67:before {
+	content: "\e09d";
+}
+.medical-medical68:before {
+	content: "\e09e";
+}
+.medical-medical8:before {
+	content: "\e09f";
+}
+.medical-medical84:before {
+	content: "\e0a0";
+}
+.medical-medical85:before {
+	content: "\e0a1";
+}
+.medical-medical88:before {
+	content: "\e0a2";
+}
+.medical-medical99:before {
+	content: "\e0a3";
+}
+.medical-medicalkit3:before {
+	content: "\e0a4";
+}
+.medical-medicine25:before {
+	content: "\e0a5";
+}
+.medical-medicine57:before {
+	content: "\e0a6";
+}
+.medical-medicine7:before {
+	content: "\e0a7";
+}
+.medical-medicines2:before {
+	content: "\e0a8";
+}
+.medical-medicines4:before {
+	content: "\e0a9";
+}
+.medical-mercury12:before {
+	content: "\e0aa";
+}
+.medical-microscope4:before {
+	content: "\e0ab";
+}
+.medical-molecule15:before {
+	content: "\e0ac";
+}
+.medical-mother19:before {
+	content: "\e0ad";
+}
+.medical-mouth1:before {
+	content: "\e0ae";
+}
+.medical-noses:before {
+	content: "\e0af";
+}
+.medical-notepad55:before {
+	content: "\e0b0";
+}
+.medical-nurse1:before {
+	content: "\e0b1";
+}
+.medical-nurse15:before {
+	content: "\e0b2";
+}
+.medical-nurse9:before {
+	content: "\e0b3";
+}
+.medical-optical2:before {
+	content: "\e0b4";
+}
+.medical-organ2:before {
+	content: "\e0b5";
+}
+.medical-organs2:before {
+	content: "\e0b6";
+}
+.medical-organs3:before {
+	content: "\e0b7";
+}
+.medical-oxygenation:before {
+	content: "\e0b8";
+}
+.medical-pain:before {
+	content: "\e0b9";
+}
+.medical-patient1:before {
+	content: "\e0ba";
+}
+.medical-patient2:before {
+	content: "\e0bb";
+}
+.medical-patient4:before {
+	content: "\e0bc";
+}
+.medical-person287:before {
+	content: "\e0bd";
+}
+.medical-person289:before {
+	content: "\e0be";
+}
+.medical-pharmacy20:before {
+	content: "\e0bf";
+}
+.medical-pharmacy7:before {
+	content: "\e0c0";
+}
+.medical-pharmacy9:before {
+	content: "\e0c1";
+}
+.medical-pill:before {
+	content: "\e0c2";
+}
+.medical-pill19:before {
+	content: "\e0c3";
+}
+.medical-pills5:before {
+	content: "\e0c4";
+}
+.medical-pirate8:before {
+	content: "\e0c5";
+}
+.medical-plussign8:before {
+	content: "\e0c6";
+}
+.medical-pregnancy:before {
+	content: "\e0c7";
+}
+.medical-pregnancy3:before {
+	content: "\e0c8";
+}
+.medical-pregnant6:before {
+	content: "\e0c9";
+}
+.medical-rescue1:before {
+	content: "\e0ca";
+}
+.medical-resting6:before {
+	content: "\e0cb";
+}
+.medical-ribbon56:before {
+	content: "\e0cc";
+}
+.medical-rolled2:before {
+	content: "\e0cd";
+}
+.medical-scale13:before {
+	content: "\e0ce";
+}
+.medical-scalpel1:before {
+	content: "\e0cf";
+}
+.medical-science108:before {
+	content: "\e0d0";
+}
+.medical-science110:before {
+	content: "\e0d1";
+}
+.medical-science69:before {
+	content: "\e0d2";
+}
+.medical-science98:before {
+	content: "\e0d3";
+}
+.medical-screw6:before {
+	content: "\e0d4";
+}
+.medical-shower17:before {
+	content: "\e0d5";
+}
+.medical-sick:before {
+	content: "\e0d6";
+}
+.medical-skeleton:before {
+	content: "\e0d7";
+}
+.medical-skeleton11:before {
+	content: "\e0d8";
+}
+.medical-skin2:before {
+	content: "\e0d9";
+}
+.medical-skull38:before {
+	content: "\e0da";
+}
+.medical-skull40:before {
+	content: "\e0db";
+}
+.medical-sperm1:before {
+	content: "\e0dc";
+}
+.medical-stethoscope2:before {
+	content: "\e0dd";
+}
+.medical-stomach2:before {
+	content: "\e0de";
+}
+.medical-stomach3:before {
+	content: "\e0df";
+}
+.medical-summer21:before {
+	content: "\e0e0";
+}
+.medical-surgeon1:before {
+	content: "\e0e1";
+}
+.medical-surgery:before {
+	content: "\e0e2";
+}
+.medical-syringe:before {
+	content: "\e0e3";
+}
+.medical-syringe7:before {
+	content: "\e0e4";
+}
+.medical-tag38:before {
+	content: "\e0e5";
+}
+.medical-telephonecall3:before {
+	content: "\e0e6";
+}
+.medical-testtube1:before {
+	content: "\e0e7";
+}
+.medical-test10:before {
+	content: "\e0e8";
+}
+.medical-textfile12:before {
+	content: "\e0e9";
+}
+.medical-thermometer31:before {
+	content: "\e0ea";
+}
+.medical-timer25:before {
+	content: "\e0eb";
+}
+.medical-tool180:before {
+	content: "\e0ec";
+}
+.medical-tool181:before {
+	content: "\e0ed";
+}
+.medical-tooth:before {
+	content: "\e0ee";
+}
+.medical-transfusion1:before {
+	content: "\e0ef";
+}
+.medical-trolley2:before {
+	content: "\e0f0";
+}
+.medical-ultrasound:before {
+	content: "\e0f1";
+}
+.medical-unhealthy:before {
+	content: "\e0f2";
+}
+.medical-unhealthy1:before {
+	content: "\e0f3";
+}
+.medical-united8:before {
+	content: "\e0f4";
+}
+.medical-upper1:before {
+	content: "\e0f5";
+}
+.medical-upper2:before {
+	content: "\e0f6";
+}
+.medical-utero:before {
+	content: "\e0f7";
+}
+.medical-vehicle67:before {
+	content: "\e0f8";
+}
+.medical-vehicle8:before {
+	content: "\e0f9";
+}
+.medical-virus7:before {
+	content: "\e0fa";
+}
+.medical-washing46:before {
+	content: "\e0fb";
+}
+.medical-wave1:before {
+	content: "\e0fc";
+}
+.medical-wound:before {
+	content: "\e0fd";
+}
+.medical-x14:before {
+	content: "\e0fe";
+}
+.medical-xray2:before {
+	content: "\e0ff";
+}

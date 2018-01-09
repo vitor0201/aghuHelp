@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>admin WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="admin-"]:before, [class*=" admin-"]:before, [class^="admin-"]:after, [class*=" admin-"]:after {
+        font-family: admin;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"admin";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"admin";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.admin.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/admin.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;admin-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;admin-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon admin-accesibility1"></div>
+		<div class="class-name">.admin-accesibility1</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/accesibility-sign_58944">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-access59"></div>
+		<div class="class-name">.admin-access59</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/key_109129">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-add175"></div>
+		<div class="class-name">.admin-add175</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/add-filled-cross-sign_59426">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-administration1"></div>
+		<div class="class-name">.admin-administration1</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/administration-job-with-archive_47956">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-administrator1"></div>
+		<div class="class-name">.admin-administrator1</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/man-in-suit-and-tie_3729">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-agreement2"></div>
+		<div class="class-name">.admin-agreement2</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/hand-shake_1342">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-antique25"></div>
+		<div class="class-name">.admin-antique25</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/antique-building_59457">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-arrow616"></div>
+		<div class="class-name">.admin-arrow616</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/arrow-left-broken-angle_58995">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-arrow618"></div>
+		<div class="class-name">.admin-arrow618</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/arrow-down-curve_59160">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-arrow619"></div>
+		<div class="class-name">.admin-arrow619</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/arrow-right-curve_59179">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-arrow621"></div>
+		<div class="class-name">.admin-arrow621</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/arrow-angle-pointing-to-right_59421">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-arrow622"></div>
+		<div class="class-name">.admin-arrow622</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/arrow-pointing-to-right_59446">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-arrows100"></div>
+		<div class="class-name">.admin-arrows100</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/arrows-triangles-pointing-to-opposite-sides_59258">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-arrows96"></div>
+		<div class="class-name">.admin-arrows96</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/arrows-couple-to-opposite-directions_58902">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-asterisk8"></div>
+		<div class="class-name">.admin-asterisk8</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/asterisk_59178">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-at4"></div>
+		<div class="class-name">.admin-at4</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/at-symbol_62671">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-automatic"></div>
+		<div class="class-name">.admin-automatic</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/automatic-rotation-to-vertical-or-horizontal-position_58978">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-avatars"></div>
+		<div class="class-name">.admin-avatars</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/user-avatar-with-check-mark_1819">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-back51"></div>
+		<div class="class-name">.admin-back51</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/back-filled-arrow_59057">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-back53"></div>
+		<div class="class-name">.admin-back53</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/back-left-arrow_59173">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-balance13"></div>
+		<div class="class-name">.admin-balance13</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/law-scales_73492">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-bank100"></div>
+		<div class="class-name">.admin-bank100</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/cash_104856">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-barcode12"></div>
+		<div class="class-name">.admin-barcode12</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/barcode-product_71239">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-barcode3"></div>
+		<div class="class-name">.admin-barcode3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/barcode-scanner_31003">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-barcodes"></div>
+		<div class="class-name">.admin-barcodes</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/barcode-reader_75697">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-black268"></div>
+		<div class="class-name">.admin-black268</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/black-graduation-cap-tool-of-university-student-for-head_43132">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-block31"></div>
+		<div class="class-name">.admin-block31</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/closed-lock_9568">Heydon</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-bomb10"></div>
+		<div class="class-name">.admin-bomb10</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/bomb_59311">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-book135"></div>
+		<div class="class-name">.admin-book135</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/book-and-pen_43078">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-books8"></div>
+		<div class="class-name">.admin-books8</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/books-stack-of-three_29302">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-bugs3"></div>
+		<div class="class-name">.admin-bugs3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/big-bug_78946">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-burn7"></div>
+		<div class="class-name">.admin-burn7</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/burn_59512">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-business163"></div>
+		<div class="class-name">.admin-business163</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/business-man-walking-with-suitcase_53088">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-business175"></div>
+		<div class="class-name">.admin-business175</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/business-stats-file_59032">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-business20"></div>
+		<div class="class-name">.admin-business20</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/choice_104817">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-business53"></div>
+		<div class="class-name">.admin-business53</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/business-male-team_30638">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-business55"></div>
+		<div class="class-name">.admin-business55</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/business-leader-holding-magnifying-glass-with-other-workers-on-background_31447">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-businessman175"></div>
+		<div class="class-name">.admin-businessman175</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/businessman-standing-with-bow-tie-and-suitcase_47959">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-businessman57"></div>
+		<div class="class-name">.admin-businessman57</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/businessman-having-a-connection_31220">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-businessmen7"></div>
+		<div class="class-name">.admin-businessmen7</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/businessmen-team-behind-a-desktop_30748">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-button30"></div>
+		<div class="class-name">.admin-button30</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/conversion-settings_14521">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-calendar133"></div>
+		<div class="class-name">.admin-calendar133</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/calendar-and-clock-time-administration-and-organization-tools-symbol_45202">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-call41"></div>
+		<div class="class-name">.admin-call41</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/call-center-female-workers_52557">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-camera3"></div>
+		<div class="class-name">.admin-camera3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/photo-camera_3901">Daniel Bruce</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-cellphone83"></div>
+		<div class="class-name">.admin-cellphone83</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/smartphone-blocked_15849">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-chatting2"></div>
+		<div class="class-name">.admin-chatting2</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/chatting-oval-speech-bubbles_59176">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-cigarette"></div>
+		<div class="class-name">.admin-cigarette</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/no-smoking-sign_15146">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-circle100"></div>
+		<div class="class-name">.admin-circle100</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/circle-of-two-clockwise-arrows-rotation_59417">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-circle105"></div>
+		<div class="class-name">.admin-circle105</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/circle_59870">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-circles22"></div>
+		<div class="class-name">.admin-circles22</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/circles-loader_59414">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-circular116"></div>
+		<div class="class-name">.admin-circular116</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/circular-clock-tool_43263">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-class6"></div>
+		<div class="class-name">.admin-class6</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/class-group_43289">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-clipboard93"></div>
+		<div class="class-name">.admin-clipboard93</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/clipboard_58975">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-clock285"></div>
+		<div class="class-name">.admin-clock285</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/time-is-running_104831">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-cloud292"></div>
+		<div class="class-name">.admin-cloud292</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/cloud-filled-shape_59037">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-code39"></div>
+		<div class="class-name">.admin-code39</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/code-programming-signs_59238">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-code40"></div>
+		<div class="class-name">.admin-code40</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/code-sign_59249">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-compass102"></div>
+		<div class="class-name">.admin-compass102</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/compass_59182">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-compass58"></div>
+		<div class="class-name">.admin-compass58</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/compass-and-ruler_43210">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-computer-screen1"></div>
+		<div class="class-name">.admin-computer-screen1</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/desktop-computer_5088">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-computer-screen5"></div>
+		<div class="class-name">.admin-computer-screen5</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/television-monitor_17685">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-computer190"></div>
+		<div class="class-name">.admin-computer190</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/wi-fi_1848">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-computer201"></div>
+		<div class="class-name">.admin-computer201</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/notebook-and-mouse-cursor_68202">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-computers3"></div>
+		<div class="class-name">.admin-computers3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/computers-network-interface-symbol_36181">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-constructor3"></div>
+		<div class="class-name">.admin-constructor3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/constructor-with-hard-hat-and-stop-hexagonal-signal_46238">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-contrast24"></div>
+		<div class="class-name">.admin-contrast24</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/contrast-circular-button_59239">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-cross93"></div>
+		<div class="class-name">.admin-cross93</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/cross-remove-sign_59254">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-curved25"></div>
+		<div class="class-name">.admin-curved25</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/curved-up-arrow_58895">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-customerservice10"></div>
+		<div class="class-name">.admin-customerservice10</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon admin-customerservice12"></div>
+		<div class="class-name">.admin-customerservice12</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon admin-database46"></div>
+		<div class="class-name">.admin-database46</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/database_58963">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-desktopcomputer"></div>
+		<div class="class-name">.admin-desktopcomputer</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon admin-diagram10"></div>
+		<div class="class-name">.admin-diagram10</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/hierarchical-structure_71585">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-diploma2"></div>
+		<div class="class-name">.admin-diploma2</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/diploma-of-vertical-design_43542">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-diploma20"></div>
+		<div class="class-name">.admin-diploma20</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/sealed-diploma_4402">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-documents1"></div>
+		<div class="class-name">.admin-documents1</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/folder-with-documents_68549">Puppets</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-dog99"></div>
+		<div class="class-name">.admin-dog99</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/no-pets_75261">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-doorkey2"></div>
+		<div class="class-name">.admin-doorkey2</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon admin-down93"></div>
+		<div class="class-name">.admin-down93</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/down-arrow_58927">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-down95"></div>
+		<div class="class-name">.admin-down95</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/down-arrow-angle_58998">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-drill8"></div>
+		<div class="class-name">.admin-drill8</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/drill_53089">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-earth26"></div>
+		<div class="class-name">.admin-earth26</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/earth_32445">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-email19"></div>
+		<div class="class-name">.admin-email19</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/e-mail-envelope_20061">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-email5"></div>
+		<div class="class-name">.admin-email5</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/close-envelope_12194">Yannick</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-equalizer31"></div>
+		<div class="class-name">.admin-equalizer31</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/equalizer-console-with-three-switches-at-different-levels_59004">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-facebook55"></div>
+		<div class="class-name">.admin-facebook55</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/facebook-logo_59439">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-favorite20"></div>
+		<div class="class-name">.admin-favorite20</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/favorite_59496">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-file148"></div>
+		<div class="class-name">.admin-file148</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/seo-report_13826">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-file161"></div>
+		<div class="class-name">.admin-file161</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/checked-files_72321">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-file321"></div>
+		<div class="class-name">.admin-file321</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/dossier_104860">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-file87"></div>
+		<div class="class-name">.admin-file87</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/file-outlined-blank-paper-sheet_59522">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-finger8"></div>
+		<div class="class-name">.admin-finger8</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/finger-pointing-left-of-filled-hand-gesture_58897">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-finger9"></div>
+		<div class="class-name">.admin-finger9</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/finger-pointing-up-of-filled-hand-gesture_59219">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-fingerprint12"></div>
+		<div class="class-name">.admin-fingerprint12</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/fingerprint-with-security_25942">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-fingerprint16"></div>
+		<div class="class-name">.admin-fingerprint16</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/fingerprint-scanner-device_25946">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-fingerprint21"></div>
+		<div class="class-name">.admin-fingerprint21</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/fingerprint-outline-with-check-mark_25953">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-fingerprint28"></div>
+		<div class="class-name">.admin-fingerprint28</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/fingerprint-image-on-mobile-phone_25962">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-fingerprint3"></div>
+		<div class="class-name">.admin-fingerprint3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/fingerprint-scan-outline_25929">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-fingerprint41"></div>
+		<div class="class-name">.admin-fingerprint41</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/fingerprint-scanning-using-index-finger_26093">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-fingerprint47"></div>
+		<div class="class-name">.admin-fingerprint47</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/fingerprint-scanning-process_38133">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-fire38"></div>
+		<div class="class-name">.admin-fire38</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/fire-extinguisher_59285">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-flatscreen"></div>
+		<div class="class-name">.admin-flatscreen</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/flatscreen-tv_31106">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-folder112"></div>
+		<div class="class-name">.admin-folder112</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/folder-add-symbol_34473">SimpleIcon</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-folder232"></div>
+		<div class="class-name">.admin-folder232</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/open-file-button_62319">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-folder265"></div>
+		<div class="class-name">.admin-folder265</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/open-folder_69925">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-folder61"></div>
+		<div class="class-name">.admin-folder61</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/portfolio_104839">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-folders7"></div>
+		<div class="class-name">.admin-folders7</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/office-folders_69974">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-forbidden8"></div>
+		<div class="class-name">.admin-forbidden8</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/no-entry-sign_1718">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-four102"></div>
+		<div class="class-name">.admin-four102</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/four-thumbnails-visualization-button_58912">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-game55"></div>
+		<div class="class-name">.admin-game55</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/game-control_58952">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-group65"></div>
+		<div class="class-name">.admin-group65</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/group-filled-persons_59045">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-hammer19"></div>
+		<div class="class-name">.admin-hammer19</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/hammer-and-nail-on-wood-outline_25801">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-hammer2"></div>
+		<div class="class-name">.admin-hammer2</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/handyman-tools_69886">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-hand234"></div>
+		<div class="class-name">.admin-hand234</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/five-fingers_4333">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-hand369"></div>
+		<div class="class-name">.admin-hand369</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/do-not-touch_103696">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-hand444"></div>
+		<div class="class-name">.admin-hand444</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/security-code_109973">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-hand61"></div>
+		<div class="class-name">.admin-hand61</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/hand-finger-pressing-a-circular-ring-button_30895">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-head21"></div>
+		<div class="class-name">.admin-head21</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/head-with-gears-education-interface-symbol_42608">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-help17"></div>
+		<div class="class-name">.admin-help17</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/help-circular-filled-button_59486">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-hierarchical9"></div>
+		<div class="class-name">.admin-hierarchical9</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/hierarchical-structure_59309">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-home145"></div>
+		<div class="class-name">.admin-home145</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/home-silhouette_59008">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-images25"></div>
+		<div class="class-name">.admin-images25</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/images_59162">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-inbox36"></div>
+		<div class="class-name">.admin-inbox36</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/inbox-download-interface-sign_59523">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-information66"></div>
+		<div class="class-name">.admin-information66</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/information-circle_59201">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-interface57"></div>
+		<div class="class-name">.admin-interface57</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/interface-button-of-four-thumbnails_59487">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-label59"></div>
+		<div class="class-name">.admin-label59</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/barcode-tag_98991">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-left193"></div>
+		<div class="class-name">.admin-left193</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/left-arrow_59070">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-left194"></div>
+		<div class="class-name">.admin-left194</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/left-filled-arrow_59114">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-left195"></div>
+		<div class="class-name">.admin-left195</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/left-angle-arrow_59121">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-left197"></div>
+		<div class="class-name">.admin-left197</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/left-quote_59149">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-left200"></div>
+		<div class="class-name">.admin-left200</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/left-arrow_59265">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-levels1"></div>
+		<div class="class-name">.admin-levels1</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/system-controller_73391">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-lightbulb49"></div>
+		<div class="class-name">.admin-lightbulb49</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/lightbulb-filled-interface-sign_58930">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-lightning21"></div>
+		<div class="class-name">.admin-lightning21</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/lightning-bolt-filled-shape_59192">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-like73"></div>
+		<div class="class-name">.admin-like73</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/like-filled-hand_59222">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-link55"></div>
+		<div class="class-name">.admin-link55</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/link-break_58899">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-login17"></div>
+		<div class="class-name">.admin-login17</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/login_58950">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-login18"></div>
+		<div class="class-name">.admin-login18</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/login-left-arrow_59156">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-logout21"></div>
+		<div class="class-name">.admin-logout21</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/logout-web-button_59450">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-logout22"></div>
+		<div class="class-name">.admin-logout22</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/logout-square-button_59480">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-mail65"></div>
+		<div class="class-name">.admin-mail65</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/mail-box_47721">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-mail83"></div>
+		<div class="class-name">.admin-mail83</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/incoming-email_1261">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-male122"></div>
+		<div class="class-name">.admin-male122</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/male-worker-behind-a-desk_30631">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-man216"></div>
+		<div class="class-name">.admin-man216</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/man-reading_43455">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-man315"></div>
+		<div class="class-name">.admin-man315</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/man-studying-with-a-laptop_46979">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-mathematical4"></div>
+		<div class="class-name">.admin-mathematical4</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/mathematical-symbols-in-four-squares_42919">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-measure38"></div>
+		<div class="class-name">.admin-measure38</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/angle-ruler_79765">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-mechanic3"></div>
+		<div class="class-name">.admin-mechanic3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/mechanic-worker-of-industry_48637">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-media23"></div>
+		<div class="class-name">.admin-media23</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/media-play-symbol_31128">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-menu51"></div>
+		<div class="class-name">.admin-menu51</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/menu_59165">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-microsoft-excel"></div>
+		<div class="class-name">.admin-microsoft-excel</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/excel-file_1396">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-minus100"></div>
+		<div class="class-name">.admin-minus100</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/minus-sign-in-filled-circle_59151">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-mobile41"></div>
+		<div class="class-name">.admin-mobile41</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/mobile-phone_34273">SimpleIcon</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-money132"></div>
+		<div class="class-name">.admin-money132</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/money-bag-with-dollar-symbol_61584">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-money192"></div>
+		<div class="class-name">.admin-money192</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/worker-money-time_10708">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-monitor145"></div>
+		<div class="class-name">.admin-monitor145</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/screen_23283">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-music34"></div>
+		<div class="class-name">.admin-music34</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/music-player-sign_73914">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-network77"></div>
+		<div class="class-name">.admin-network77</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/teamwork_104819">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-newspaper11"></div>
+		<div class="class-name">.admin-newspaper11</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/newspaper_31866">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-newspaper16"></div>
+		<div class="class-name">.admin-newspaper16</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/newspaper_59005">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-night13"></div>
+		<div class="class-name">.admin-night13</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/night-moon-phase_59153">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-notebook88"></div>
+		<div class="class-name">.admin-notebook88</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/notepad-sheet_5089">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-opened29"></div>
+		<div class="class-name">.admin-opened29</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/opened-email-outlined-interface-symbol_56230">Yannick</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-padlock127"></div>
+		<div class="class-name">.admin-padlock127</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/locked-email_109984">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-paper-plane"></div>
+		<div class="class-name">.admin-paper-plane</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/paper-airplane_68630">Puppets</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-password10"></div>
+		<div class="class-name">.admin-password10</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/password-protection-symbol-on-monitor-screen_48817">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-pdf19"></div>
+		<div class="class-name">.admin-pdf19</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/pdf-file-format-symbol_29587">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-pen38"></div>
+		<div class="class-name">.admin-pen38</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/pencil-and-ruler-cross-of-school-materials_42930">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-pencil159"></div>
+		<div class="class-name">.admin-pencil159</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/new-file_109705">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-people"></div>
+		<div class="class-name">.admin-people</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/female-graduate-student_68045">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-person321"></div>
+		<div class="class-name">.admin-person321</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/person-business-card_59028">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-phone21"></div>
+		<div class="class-name">.admin-phone21</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/old-typical-phone_13936">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-phonereceiver7"></div>
+		<div class="class-name">.admin-phonereceiver7</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon admin-phones3"></div>
+		<div class="class-name">.admin-phones3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/phones-not-allowed_61337">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-photos14"></div>
+		<div class="class-name">.admin-photos14</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/no-photography_68407">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-pin50"></div>
+		<div class="class-name">.admin-pin50</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/pin-filled-silhouette_59272">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-placeholder30"></div>
+		<div class="class-name">.admin-placeholder30</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/placeholder-filled-point_58960">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-play96"></div>
+		<div class="class-name">.admin-play96</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/play-filled-triangle-button-of-right-arrow_59385">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-plug36"></div>
+		<div class="class-name">.admin-plug36</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/plug-silhouette_59397">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-professor4"></div>
+		<div class="class-name">.admin-professor4</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/professor-walking-arriving-to-his-desk-on-time-for-the-class_43164">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-programming2"></div>
+		<div class="class-name">.admin-programming2</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/programming-code-signs_59118">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-puzzle25"></div>
+		<div class="class-name">.admin-puzzle25</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/puzzle-black-piece-shape_43074">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-question42"></div>
+		<div class="class-name">.admin-question42</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/question-class-note-symbol_43392">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-recognition6"></div>
+		<div class="class-name">.admin-recognition6</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/recognition-badge_60469">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-recycle68"></div>
+		<div class="class-name">.admin-recycle68</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/recycle-three-arrows-triangle_59001">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-responsive12"></div>
+		<div class="class-name">.admin-responsive12</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/responsive-website-design-on-monitor-screen_36121">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-restaurant48"></div>
+		<div class="class-name">.admin-restaurant48</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/restaurant-fork-and-knife_59077">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-retweet8"></div>
+		<div class="class-name">.admin-retweet8</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/retweet-arrows_59528">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-right194"></div>
+		<div class="class-name">.admin-right194</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/right-quotation-sign_58934">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-sandwich"></div>
+		<div class="class-name">.admin-sandwich</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/sandwich_45787">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-save31"></div>
+		<div class="class-name">.admin-save31</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/save-disk_13842">Picol</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-scan"></div>
+		<div class="class-name">.admin-scan</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/scan-barcode-with-scanner-tool_34563">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-school1"></div>
+		<div class="class-name">.admin-school1</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/old-school_5082">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-schoolmaterial2"></div>
+		<div class="class-name">.admin-schoolmaterial2</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon admin-science112"></div>
+		<div class="class-name">.admin-science112</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/atom_109836">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-screen221"></div>
+		<div class="class-name">.admin-screen221</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/online-conference_104865">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-screw11"></div>
+		<div class="class-name">.admin-screw11</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/garage-screw_71064">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-search102"></div>
+		<div class="class-name">.admin-search102</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/search-in-folder_62155">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-search16"></div>
+		<div class="class-name">.admin-search16</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/barcode-identification_75815">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-security50"></div>
+		<div class="class-name">.admin-security50</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/security-camera_66843">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-security58"></div>
+		<div class="class-name">.admin-security58</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/bars-code_14392">Vectorgraphit</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-security6"></div>
+		<div class="class-name">.admin-security6</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/car-seat-belt_21167">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-settings48"></div>
+		<div class="class-name">.admin-settings48</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/settings-gears_60473">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-share35"></div>
+		<div class="class-name">.admin-share35</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/share_59506">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-shield20"></div>
+		<div class="class-name">.admin-shield20</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/security-on_74373">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-shopper71"></div>
+		<div class="class-name">.admin-shopper71</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/barcode-tag_98969">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-shovel23"></div>
+		<div class="class-name">.admin-shovel23</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/constructing-a-brick-wall_79584">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-signature3"></div>
+		<div class="class-name">.admin-signature3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/signing-contract_66138">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-sms1"></div>
+		<div class="class-name">.admin-sms1</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/sms-of-surveillance-system_36449">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-sort50"></div>
+		<div class="class-name">.admin-sort50</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/sort-down_59298">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-spring16"></div>
+		<div class="class-name">.admin-spring16</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/spring-desktop-calendar-variant_30322">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-squares26"></div>
+		<div class="class-name">.admin-squares26</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/matrix_675">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-stats185"></div>
+		<div class="class-name">.admin-stats185</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/graphic-search_104824">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-stickman201"></div>
+		<div class="class-name">.admin-stickman201</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon admin-stickman203"></div>
+		<div class="class-name">.admin-stickman203</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/_"></a></div></div><div class="glyph">
+		<div class="glyph-icon admin-stopwatch6"></div>
+		<div class="class-name">.admin-stopwatch6</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/stopwatch-tool-to-control-test-time_42915">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-student"></div>
+		<div class="class-name">.admin-student</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/studying-zone_4351">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-subscribe"></div>
+		<div class="class-name">.admin-subscribe</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/subscribe-rss-button_58919">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-suitcase6"></div>
+		<div class="class-name">.admin-suitcase6</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/services-portfolio_14573">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-supermarket20"></div>
+		<div class="class-name">.admin-supermarket20</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/supermarket-barcode-product-identification_58274">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-surveillance13"></div>
+		<div class="class-name">.admin-surveillance13</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/surveillance-camera-filming-a-robber_36253">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-surveillance34"></div>
+		<div class="class-name">.admin-surveillance34</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/surveillance-video-camera_36311">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-surveillance36"></div>
+		<div class="class-name">.admin-surveillance36</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/surveillance-symbol_36324">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-symbol133"></div>
+		<div class="class-name">.admin-symbol133</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/qr-code_107072">Vaadin</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-symbol173"></div>
+		<div class="class-name">.admin-symbol173</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/letter-x_109602">Lyolya</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-teacher4"></div>
+		<div class="class-name">.admin-teacher4</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/teacher-pointing-blackboard_42912">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-technological32"></div>
+		<div class="class-name">.admin-technological32</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/qr-code_25213">Dave Gandy</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-telephone166"></div>
+		<div class="class-name">.admin-telephone166</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/old-telephone_21327">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-text137"></div>
+		<div class="class-name">.admin-text137</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/text-letter_59197">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-text146"></div>
+		<div class="class-name">.admin-text146</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/text-justified-option-interface-button_59498">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-thumb51"></div>
+		<div class="class-name">.admin-thumb51</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/thumb-down-social-filled-gesture_58921">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-thumb56"></div>
+		<div class="class-name">.admin-thumb56</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/thumb-up_68554">Puppets</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-tool1502"></div>
+		<div class="class-name">.admin-tool1502</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/open-padlock_109986">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-two174"></div>
+		<div class="class-name">.admin-two174</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/two-heads-with-information-transference_43166">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-umbrella47"></div>
+		<div class="class-name">.admin-umbrella47</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/umbrella-filled-opened-tool_58943">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-unlocked40"></div>
+		<div class="class-name">.admin-unlocked40</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/unlocked-padlock-filled-silhouette_59331">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-up143"></div>
+		<div class="class-name">.admin-up143</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/up-arrow_59043">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-up150"></div>
+		<div class="class-name">.admin-up150</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/up-arrow-angle_59468">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-upload109"></div>
+		<div class="class-name">.admin-upload109</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/upload-to-internet-cloud_59044">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-uploading46"></div>
+		<div class="class-name">.admin-uploading46</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/upload-to-cloud_109598">Lyolya</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-user84"></div>
+		<div class="class-name">.admin-user84</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/user-with-computer-monitor-and-bar-graphs_33356">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-verified9"></div>
+		<div class="class-name">.admin-verified9</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/verified-text-paper_45874">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-voice29"></div>
+		<div class="class-name">.admin-voice29</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/voice_59116">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-volume43"></div>
+		<div class="class-name">.admin-volume43</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/volume-vertical-ascending-lines_59290">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-wall3"></div>
+		<div class="class-name">.admin-wall3</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/firewall_101321">Revicon</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-weapon86"></div>
+		<div class="class-name">.admin-weapon86</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/bomb_109975">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-weekly18"></div>
+		<div class="class-name">.admin-weekly18</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/weekly-calendar_59248">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-work12"></div>
+		<div class="class-name">.admin-work12</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/working-with-laptop_10910">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-worker10"></div>
+		<div class="class-name">.admin-worker10</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/worker-running-with-suitcase_49859">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-worker26"></div>
+		<div class="class-name">.admin-worker26</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/good-worker_69210">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-worker5"></div>
+		<div class="class-name">.admin-worker5</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/worker-of-construction-working-with-a-shovel-beside-material-pile_46257">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-worker8"></div>
+		<div class="class-name">.admin-worker8</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/worker-with-tools_48558">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-worker9"></div>
+		<div class="class-name">.admin-worker9</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/worker-pushing-a-cart_48592">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-working2"></div>
+		<div class="class-name">.admin-working2</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/working-team_30404">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-world83"></div>
+		<div class="class-name">.admin-world83</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/world-map-and-gears-symbols_46700">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon admin-xlsx"></div>
+		<div class="class-name">.admin-xlsx</div><div class="author-name">Author: <a href="http://www.admin.com/free-icon/xlsx-file-format_28813">Freepik</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.admin.com">admin.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>, <a href="http://www.heydonworks.com">Heydon</a>, <a href="http://www.danielbruce.se">Daniel Bruce</a>, <a href="http://"></a>, <a href="http://puppetscientists.com">Puppets</a>, <a href="http://yanlu.de">Yannick</a>, <a href="http://www.simpleicon.com">SimpleIcon</a>, <a href="http://www.rivolta.es">Situ Herrera</a>, <a href="http://picol.org">Picol</a>, <a href="http://www.meanicons.com">Vectorgraphit</a>, <a href="http://vaadin.com/font-icons">Vaadin</a>, <a href="http://tumanova.cat">Lyolya</a>, <a href="http://fontawesome.io">Dave Gandy</a>, <a href="http://">Revicon</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.admin.com&quot;&gt;admin.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;, &lt;a href=&quot;http://www.heydonworks.com&quot;&gt;Heydon&lt;/a&gt;, &lt;a href=&quot;http://www.danielbruce.se&quot;&gt;Daniel Bruce&lt;/a&gt;, &lt;a href=&quot;http://&quot;&gt;&lt;/a&gt;, &lt;a href=&quot;http://puppetscientists.com&quot;&gt;Puppets&lt;/a&gt;, &lt;a href=&quot;http://yanlu.de&quot;&gt;Yannick&lt;/a&gt;, &lt;a href=&quot;http://www.simpleicon.com&quot;&gt;SimpleIcon&lt;/a&gt;, &lt;a href=&quot;http://www.rivolta.es&quot;&gt;Situ Herrera&lt;/a&gt;, &lt;a href=&quot;http://picol.org&quot;&gt;Picol&lt;/a&gt;, &lt;a href=&quot;http://www.meanicons.com&quot;&gt;Vectorgraphit&lt;/a&gt;, &lt;a href=&quot;http://vaadin.com/font-icons&quot;&gt;Vaadin&lt;/a&gt;, &lt;a href=&quot;http://tumanova.cat&quot;&gt;Lyolya&lt;/a&gt;, &lt;a href=&quot;http://fontawesome.io&quot;&gt;Dave Gandy&lt;/a&gt;, &lt;a href=&quot;http://&quot;&gt;Revicon&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;admin-accesibility1&quot;&gt;&lt;/i&gt; <i class="admin-accesibility1"></i></p><p>&lt;i class=&quot;admin-access59&quot;&gt;&lt;/i&gt; <i class="admin-access59"></i></p><p>&lt;i class=&quot;admin-add175&quot;&gt;&lt;/i&gt; <i class="admin-add175"></i></p><p>&lt;i class=&quot;admin-administration1&quot;&gt;&lt;/i&gt; <i class="admin-administration1"></i></p><p>&lt;i class=&quot;admin-administrator1&quot;&gt;&lt;/i&gt; <i class="admin-administrator1"></i></p></div><div class="image"><p>&lt;span class=&quot;admin-agreement2&quot;&gt;&lt;/span&gt; <span class="admin-agreement2"></span></p><p>&lt;span class=&quot;admin-antique25&quot;&gt;&lt;/span&gt; <span class="admin-antique25"></span></p><p>&lt;span class=&quot;admin-arrow616&quot;&gt;&lt;/span&gt; <span class="admin-arrow616"></span></p><p>&lt;span class=&quot;admin-arrow618&quot;&gt;&lt;/span&gt; <span class="admin-arrow618"></span></p><p>&lt;span class=&quot;admin-arrow619&quot;&gt;&lt;/span&gt; <span class="admin-arrow619"></span></p></div><div class="image"><p>&lt;span class=&quot;admin-arrow621&quot;&gt;&lt;/span&gt; <span class="admin-arrow621"></span></p><p>&lt;i class=&quot;admin-arrow622&quot;&gt;&lt;/i&gt; <i class="admin-arrow622"></i></p><p>&lt;i class=&quot;admin-arrows100&quot;&gt;&lt;/i&gt; <i class="admin-arrows100"></i></p><p>&lt;i class=&quot;admin-arrows96&quot;&gt;&lt;/i&gt; <i class="admin-arrows96"></i></p><p>&lt;i class=&quot;admin-asterisk8&quot;&gt;&lt;/i&gt; <i class="admin-asterisk8"></i></p></div><div class="image"><p>&lt;span class=&quot;admin-at4&quot;&gt;&lt;/span&gt; <span class="admin-at4"></span></p><p>&lt;span class=&quot;admin-automatic&quot;&gt;&lt;/span&gt; <span class="admin-automatic"></span></p><p>&lt;span class=&quot;admin-avatars&quot;&gt;&lt;/span&gt; <span class="admin-avatars"></span></p><p>&lt;span class=&quot;admin-back51&quot;&gt;&lt;/span&gt; <span class="admin-back51"></span></p><p>&lt;span class=&quot;admin-back53&quot;&gt;&lt;/span&gt; <span class="admin-back53"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.admin.com">admin.com</a>
+    </div>
+</div>
+	</body>
+</html>
